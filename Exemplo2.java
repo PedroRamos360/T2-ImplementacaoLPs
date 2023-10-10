@@ -1,6 +1,11 @@
 import javassist.*;
 
-public class ExemploJavassist {
+// Esse exemplo cria uma nova classe chamada Person, adiciona um campo "name",
+// um construtor padrão, um método "setName" e um método "getName". Posteriormente
+// a classe é salva em um arquivo e uma instância é criada dinamicamente e seus
+// atributos e métodos são acessados e modificados dinamicamente.
+
+public class Exemplo2 {
     public static void main(String[] args) {
         try {
             // Cria uma instância de ClassPool
