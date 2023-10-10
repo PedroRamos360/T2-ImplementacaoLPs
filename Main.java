@@ -1,4 +1,7 @@
-import javassist.*;
+import javassist.ClassPool;
+import javassist.CtClass;
+import javassist.CtMethod;
+import javassist.CtNewMethod;
 
 public class Main {
     public static void main(String[] args) {
